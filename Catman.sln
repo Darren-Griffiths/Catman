@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catman", "Catman.csproj", "{6238B381-CDD1-F434-B9E8-9285296845D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catman.Editor", "Catman.Editor.csproj", "{5FB56857-8951-1E98-623E-F1FAD85DECDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{6238B381-CDD1-F434-B9E8-9285296845D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6238B381-CDD1-F434-B9E8-9285296845D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6238B381-CDD1-F434-B9E8-9285296845D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB56857-8951-1E98-623E-F1FAD85DECDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB56857-8951-1E98-623E-F1FAD85DECDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB56857-8951-1E98-623E-F1FAD85DECDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB56857-8951-1E98-623E-F1FAD85DECDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
