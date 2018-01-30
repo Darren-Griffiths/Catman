@@ -21,21 +21,17 @@ Platform assembly: C:\Users\user\Documents\Catman\CATMAN_Data\Managed\UnityEngin
 Loading C:\Users\user\Documents\Catman\CATMAN_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\user\Documents\Catman\CATMAN_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\user\Documents\Catman\CATMAN_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.026 seconds
+- Completed reload, in  0.032 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 3.511506 ms
-800
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-False
+UnloadTime: 1.081392 ms
+Click
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 1f44 -> priority: 1 
-  Thread -> id: 1894 -> priority: 1 
-  Thread -> id: 1f3c -> priority: 1 
-  Thread -> id: 37c0 -> priority: 1 
+  Thread -> id: 4c9c -> priority: 1 
+  Thread -> id: 4ca0 -> priority: 1 
+  Thread -> id: 4ca4 -> priority: 1 
+  Thread -> id: 4ca8 -> priority: 1 

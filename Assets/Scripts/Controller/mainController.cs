@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class mainController : MonoBehaviour {
 
     public GameObject boltCutter;
     public GameObject inventory;
     int spawnNum = 1;
+    public int chances;
+    public Text chanceText;
+    public Text text;
 
     void spawn()
     {
@@ -21,6 +25,9 @@ public class mainController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+        chances = 8;
+        SetChanceText();
         spawn();
 		
 	}
@@ -28,9 +35,19 @@ public class mainController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.C))
         {
-
+            chances = chances - 1;
+            SetChanceText();
+            Debug.Log(chances);
         }
 	}
+
+
+    void SetChanceText ()
+    {
+
+        chanceText.text = "Chances: " + chances.ToString();
+
+    }
 }
