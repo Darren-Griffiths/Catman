@@ -10,7 +10,7 @@ public class mainController : MonoBehaviour {
     int spawnNum = 1;
     public int chances;
     public Text chanceText;
-    public Text text;
+    public Text objectiveText;
 
     void spawn()
     {
@@ -29,6 +29,7 @@ public class mainController : MonoBehaviour {
         chances = 8;
         SetChanceText();
         spawn();
+        objectiveText.text = "Objective: Find a way out!";
 		
 	}
 	
@@ -50,4 +51,7 @@ public class mainController : MonoBehaviour {
         chanceText.text = "Chances: " + chances.ToString();
 
     }
+
+
+
 }
