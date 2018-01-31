@@ -8,6 +8,7 @@ public class pickup : MonoBehaviour {
     public GameObject inventoryPanel;
     public GameObject[] inventoryIcons;
     public GameObject boltCutters;
+    public GameObject hammer;
     public int tcount;
 
     //Collision between player and game object
@@ -38,12 +39,14 @@ public class pickup : MonoBehaviour {
                 {
                     boltCutters = Instantiate(inventoryIcons[0]);
                     boltCutters.transform.SetParent(inventoryPanel.transform);
+                    
+                    //Maybe play sound with a hint here
                 }
 
-                else if (collision.gameObject.tag == "ANother object")
+                else if (collision.gameObject.tag == "Hammer")
                 {
-                    //i = Instantiate(inventoryIcons[1]);
-                   // i.transform.SetParent(inventoryPanel.transform);
+                    hammer = Instantiate(inventoryIcons[1]);
+                    hammer.transform.SetParent(inventoryPanel.transform);
                 }
             }
         }

@@ -222,8 +222,11 @@ MonoBehaviour:
   inventoryPanel: {fileID: 0}
   inventoryIcons:
   - {fileID: 1546942810950774, guid: 157e961314c5e0a468bcf468468729ce, type: 2}
+  - {fileID: 1546942810950774, guid: 905a98d07740da14cbd285aced339ec0, type: 2}
   - {fileID: 0}
-  - {fileID: 0}
+  boltCutters: {fileID: 0}
+  hammer: {fileID: 0}
+  tcount: 0
 --- !u!124 &124609160729865010
 Behaviour:
   m_ObjectHideFlags: 1

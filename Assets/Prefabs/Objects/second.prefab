@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 54290243128069750}
   m_Layer: 0
   m_Name: second
-  m_TagString: Bolt Cutter
+  m_TagString: Hammer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1234386521818256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0180014, y: 4.85, z: -7.78}
+  m_LocalPosition: {x: -4.972076, y: 31.26, z: 18.949059}
   m_LocalScale: {x: 0.3496717, y: 0.3496717, z: 0.3496717}
   m_Children: []
   m_Father: {fileID: 0}

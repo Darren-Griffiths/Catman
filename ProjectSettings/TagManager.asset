@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bolt Cutter
+  - Other Object
+  - Hammer
   layers:
   - Default
   - TransparentFX
