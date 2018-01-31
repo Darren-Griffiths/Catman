@@ -127,6 +127,7 @@
     <Compile Include="Assets\Scripts\Characters\characterController.cs" />
     <Compile Include="Assets\Scripts\Characters\pickup.cs" />
     <Compile Include="Assets\Scripts\Controller\mainController.cs" />
+    <Compile Include="Assets\Scripts\Level 1\objtrigger.cs" />
     <Compile Include="Assets\Scripts\Objects\respawn.cs" />
     <Compile Include="Assets\Scripts\Start Menu\StartMenu.cs" />
     <Compile Include="Assets\Scripts\UI\Inventory.cs" />
