@@ -7,6 +7,7 @@ public class objtrigger : MonoBehaviour {
 
     public Text objectiveText;
 
+
 	// Use this for initialization
 	void Start () {
 		
@@ -22,9 +23,16 @@ public class objtrigger : MonoBehaviour {
     {
         if (col.gameObject.name == "Player")
         {
+            pickup pickupScript = col.gameObject.GetComponent<pickup>();
             Debug.Log("detecting");
-
-            objectiveText.text = "Objective: Find a tool to break the chain!";
+            if (pickupScript.boltCutters != null)
+            {
+                objectiveText.text = "Objective: Got some boltcutters, I wonder if these could get through those chains.";
+            }
+            if (pickupScript.boltCutters == null)
+            {
+                objectiveText.text = "Objective: Find a tool to remove the chain";
+            }
         }
     }
 }

@@ -7,7 +7,8 @@ public class pickup : MonoBehaviour {
 
     public GameObject inventoryPanel;
     public GameObject[] inventoryIcons;
-
+    public GameObject boltCutters;
+    public int tcount;
 
     //Collision between player and game object
     void OnCollisionStay(Collision collision)
@@ -24,7 +25,7 @@ public class pickup : MonoBehaviour {
                         //locate the text located with the object
                         string c = child.Find("Text").GetComponent<Text>().text;
                         //convert text to int and add 1
-                        int tcount = System.Int32.Parse(c) + 1;
+                        tcount = System.Int32.Parse(c) + 1;
                         //return the int back into text to display
                         child.Find("Text").GetComponent<Text>().text = "" + tcount;
                         return;
@@ -32,17 +33,17 @@ public class pickup : MonoBehaviour {
                 }
 
                 //If the object doesnt exist instansiate the object on collision into the inventory
-                GameObject i;
+                
                 if (collision.gameObject.tag == "Bolt Cutter")
                 {
-                    i = Instantiate(inventoryIcons[0]);
-                    i.transform.SetParent(inventoryPanel.transform);
+                    boltCutters = Instantiate(inventoryIcons[0]);
+                    boltCutters.transform.SetParent(inventoryPanel.transform);
                 }
 
                 else if (collision.gameObject.tag == "ANother object")
                 {
-                    i = Instantiate(inventoryIcons[1]);
-                    i.transform.SetParent(inventoryPanel.transform);
+                    //i = Instantiate(inventoryIcons[1]);
+                   // i.transform.SetParent(inventoryPanel.transform);
                 }
             }
         }
